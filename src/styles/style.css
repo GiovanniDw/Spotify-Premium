@@ -62,6 +62,7 @@ body {
     rgba(0, 0, 0, 1) 100%
   );
   padding: 1.5rem;
+  border-radius: 0.75rem;
 }
 
 .team__image {
