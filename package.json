@@ -1,4 +1,14 @@
 {
+  "name": "Spotify-Premium",
+  "version": "1.0.0",
+  "main": "script.js",
+  "repository": "https://github.com/GiovanniDw/Spotify-Premium",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "vite": "^4.1.1"
   }
