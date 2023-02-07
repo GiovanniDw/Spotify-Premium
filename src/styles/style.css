@@ -92,3 +92,7 @@ body {
 .play-btn {
   width: 2.5rem;
 }
+
+.play-btn:hover {
+  cursor: wait;
+}
