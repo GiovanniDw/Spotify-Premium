@@ -8,13 +8,6 @@ body {
   background-color: black;
 }
 
-/* Font Styles */
-.heading-style_h1 {
-  color: white;
-  font-size: 4rem;
-}
-
-/* main styles */
 .padding-global {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -31,14 +24,13 @@ body {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-* {
-  margin: 0;
-  padding: 0;
-}
 
-body {
-  font-family: 'DM Sans', sans-serif;
-  background-color: black;
+.grid-12 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  column-gap: 2rem;
+  row-gap: 2rem;
 }
 
 /* Font Styles */
@@ -48,19 +40,17 @@ body {
 }
 
 /* main styles */
-.padding-global {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.container-large {
-  margin-left: auto;
-  margin-right: auto;
+.team__wrapper {
   width: 100%;
-  max-width: 1200px;
+  height: 10rem;
+  background: rgb(5, 48, 62);
+  background: linear-gradient(
+    180deg,
+    rgba(5, 48, 62, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
-.padding-section-large {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.pt-0 {
+  padding-top: 0;
 }
