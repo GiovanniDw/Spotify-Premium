@@ -55,14 +55,30 @@ body {
 
 /* main styles */
 .team__wrapper {
-  background: rgb(5, 48, 62);
+  /* background: rgb(5, 48, 62);
   background: linear-gradient(
     180deg,
     rgba(5, 48, 62, 1) 0%,
     rgba(0, 0, 0, 1) 100%
-  );
+  ); */
+  /* background-image: url(../images/team_6_image.jpg); */
+  /* object-fit: cover; */
+  background-size: cover;
   padding: 1.5rem;
   border-radius: 0.75rem;
+  position: relative;
+}
+
+.team__wrapper > img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  filter: blur(50px);
 }
 
 .team__image {
@@ -70,14 +86,18 @@ body {
   justify-content: center;
 
   width: 100%;
+  z-index: 1;
 }
 
 .team__image img {
   width: 70%;
+  z-index: 1;
+  /* filter: blur(50px); */
 }
 
 .team__member-names {
   display: flex;
+  z-index: 2;
 }
 
 .member__names {
